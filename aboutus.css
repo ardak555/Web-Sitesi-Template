@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #f7f7f7;
+    height: 100px;
+    position: relative;
+    width: 100%; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 100px;
+}
+
+.baslık {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+.baslık .nokta {
+    font-size: 50px;
+    color: orange;
+}
+
+#navbar ul {
+    color: black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+#navbar ul li a {
+    color: black;
+    padding: 0.5rem;
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+
+#navbar ul li a:hover {
+    color: orange;
+}
+
+/*info*/
+.info{
+    margin: 10px;
+    height: 320px;
+}
+
+.info img{
+    width: 100%;
+}
+
+.info-general{
+    position: absolute;
+    z-index: 2;
+    color: black;
+   top: 170px;
+   left: 60px;
+   width: 80%;
+   height: 27%;
+}
+
+.info .info-header{
+    position: relative;
+    z-index: 3;
+    top: 50px;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+.info .info-detail{
+    position:relative;
+    z-index: 3;
+    top: 55px;
+    margin: 10px 0px 12px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.comment-border{
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*main*/
+
+.about-main{
+    margin-left: 150px;
+    width: 1110px;
+}
+
+.about-main .aciklama-1{
+    color: lightslategray;
+    font-size: 13px;
+    text-align: center;
+    margin:20px 30px;
+    line-height: 33px;
+}
+.about-main .aciklama-2{
+    color: lightslategray;
+    font-size: 13px;
+    text-align: center;
+    margin:20px 30px;
+    line-height: 33px;
+}
+
+.yazilar{
+ 
+    width: 1110px;
+   
+}
+
+.yazilar .ikili{ 
+    display:grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.yazilar .uclu{ 
+    display:grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.yazilar .dortlu{ 
+    display:grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.yazilar .ikili h4{
+    font-size:x-large;
+    font-weight: 500;
+    text-align: center;
+}
+
+.yazilar .ikili .anlamı{
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.yazilar .uclu h4{
+    font-size:x-large;
+    font-weight: 500;
+    text-align: center;
+}
+
+.yazilar .uclu .anlamı{
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.yazilar .dortlu h4{
+    font-size:x-large;
+    font-weight: 500;
+    text-align: center;
+}
+
+.yazilar .dortlu .anlamı{
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+/*footer*/
+footer{
+    margin-top: 100px;
+    background-color: #20232e;
+    height: 255px;
+    width: 100%;
+}
+
+footer ul{
+    display: flex;
+    margin-top: 30%;
+    justify-content: center;
+    list-style-type: none;
+    gap: 100px;
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+}
+
+footer ul li{
+
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+
+footer ul li a{
+
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.footer-border{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(205, 200, 200, 0.871);
+    margin-left: 100px;
+    width: 80%;
+}
+
+footer .copyright{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+footer .copyright a{
+    margin-top: 100px;
+    text-align: center;
+    color: orange;
+}

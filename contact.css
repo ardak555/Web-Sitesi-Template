@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #f7f7f7;
+    height: 100px;
+    position: relative;
+    width: 100%; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 100px;
+}
+
+.baslık {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+.baslık .nokta {
+    font-size: 50px;
+    color: orange;
+}
+
+#navbar ul {
+    color: black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+#navbar ul li a {
+    color: black;
+    padding: 0.5rem;
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+
+#navbar ul li a:hover {
+    color: orange;
+}
+
+/*info*/
+
+.info{
+    margin: 10px;
+    height: 320px;
+}
+
+.info-general{
+    position: absolute;
+    z-index: 2;
+    color: black;
+   top: 170px;
+   left: 60px;
+   width: 80%;
+   height: 27%;
+}
+
+.info img{
+    width: 100%;
+}
+
+.info .info-header{
+    position: relative;
+    z-index: 3;
+    top: 50px;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+.info .info-detail{
+    position:relative;
+    z-index: 3;
+    top: 55px;
+    margin: 10px 0px 12px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+.comment-border{
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.message{
+    width: 850px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.form-comment{
+    margin-top: 40px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+input{
+    border: 1px solid rgb(221, 220, 220);
+    height: 40px;
+    width: 370px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+textarea{
+    border: 1px solid rgb(221, 220, 220);
+    width:755px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buton{
+    border: none;
+    color: #fff;
+    background-color: orange;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+}
+
+/*side*/
+.main-side{
+    display:block;
+    width: 350px;
+    float: right;
+    margin-right: 150px;
+}
+
+.main-side .property{
+    margin-top: 20px;
+    line-height: 35px;
+}
+.main-side .property h4{
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+.main-side .property span{
+    color: lightgray;
+    font-size: medium;
+}
+
+.map{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 100px;
+    background-color: #20232e;
+    height: 255px;
+    width: 100%;
+}
+
+footer ul{
+    display: flex;
+    margin-top: 30%;
+    justify-content: center;
+    list-style-type: none;
+    gap: 100px;
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+}
+
+footer ul li{
+
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+
+footer ul li a{
+
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.footer-border{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(205, 200, 200, 0.871);
+    margin-left: 100px;
+    width: 80%;
+}
+
+footer .copyright{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+footer .copyright a{
+    margin-top: 100px;
+    text-align: center;
+    color: orange;
+}
